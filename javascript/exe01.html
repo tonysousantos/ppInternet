@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{
+                font-family: courier;
+                text-align: center;
+                font-size: 30px;
+
+
+            }
+            p{
+                font-weight: bold; 
+            }
+        </style>
+
+        <script>
+            var cont = 0;
+            window.onload = function () {
+                var ins = document.querySelector("#instrucao");
+                inst.style.background = "red";
+                inst.style.display = "inline";
+            }
+
+
+            function alteraTexto() {
+                cont++;
+                var ins = document.querySelector("#instrucao");
+                ins.textContent = "Clique aqui !  (" + cont + ")  ";
+                //alert("Clicou: " + (cont++));
+
+            }
+        </script>
+
+        <script>
+
+            window.onload = function () {
+                var inst = document.querySelector("#mudandoback");
+                inst.style.minWidth = "100px";
+                inst.style.minHeight = "50px";
+                inst.style.maxWidth = "100px";
+                inst.style.maxHeight = "50px";
+
+
+                inst.style.background = "green";
+                inst.style.display = "block";
+            }
+
+            function alteraCor() {
+                var inst = document.querySelector("#mudandoback");
+                inst.style.background = "blue";
+            }
+
+            function alteraCor2() {
+                var inst = document.querySelector("#mudandoback");
+                inst.style.background = "green";
+            }
+        </script>
+
+    </head>
+    <body>
+        <h1>Usando Javascript!</h1><br><br>
+        <p>Exercicio Prático 01:<p/>
+        <div id="instrucao" onclick="alteraTexto();">Clique aqui!</div><br><br>
+        <hr>
+        <br><br>
+        <p>Exercicio Prático 02:<p/>
+        <div id="mudandoback" onmouseover="alteraCor();" onmouseout="alteraCor2();"></div>
+    </body>
+</html>

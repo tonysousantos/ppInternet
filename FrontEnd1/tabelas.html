@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            table{
+                border-collapse: collapse;
+            }
+            tr, td, th{
+                border: 1px solid;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1>Lista numeradas</h1>
+
+            <h1>Usando OL</h1>
+            <ol type="I">
+                <li>Seção I</li>
+                <ol type="a">
+                    <li>Topico A</li>
+                    <ul type="square">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <ul type="circle">
+                            <li>Sub-tem 1</li>
+                            <li>Sub-tem 2</li>
+                        </ul>
+                        <li>Item 3</li>
+                    </ul>
+                    <li>Topico B</li>
+                </ol>
+                <li>Seção II</li>
+            </ol>
+
+        </section>
+        <hr>
+        <section  >
+            <h1 align="center">Tabelas</h1>
+            <table border="1" align="center">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Funcionarios</th>
+                        <th rowspan="2">Semestre</th>
+                        <th colspan="2">Gastos</th>
+                        <th colspan="2">Lucros</th>
+                    </tr>
+                    <tr>
+                        <th>Liq</th>
+                        <th>Brut</th>
+                        <th>Liq</th>
+                        <th>Brut</th>
+                    </tr>
+                </thead>	
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">João</td>
+                        <td>1</td>
+                        <td>R$ 10,00</td>
+                        <td>R$ 15,00</td>
+                        <td>R$ 70,00</td>
+                        <td>R$ 85,00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>R$ 20,00</td>
+                        <td>R$ 20,00</td>
+                        <td>R$ 150,00</td>
+                        <td>R$ 70,00</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Maria</td>
+                        <td>1</td>
+                        <td>R$ 10,00</td>
+                        <td>R$ 15,00</td>
+                        <td>R$ 10,00</td>
+                        <td>R$ 25,00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>R$ 15,00</td>
+                        <td>R$ 20,00</td>
+                        <td>R$ 120,00</td>
+                        <td>R$ 140,00</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Antônio</td>
+                        <td>1</td>
+                        <td>R$ 10,00</td>
+                        <td>R$ 15,00</td>
+                        <td>R$ 100,00</td>
+                        <td>R$ 115,00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>R$ 10,00</td>
+                        <td>R$ 20,00</td>
+                        <td>R$ 400,00</td>
+                        <td>R$ 420,00</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Paula</td>
+                        <td>1</td>
+                        <td>R$ 15,00</td>
+                        <td>R$ 15,00</td>
+                        <td>R$ 200,00</td>
+                        <td>R$ 215,00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>R$ 2,00</td>
+                        <td>R$ 20,00</td>
+                        <td>R$ 500,00</td>
+                        <td>R$ 520,00</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+    </body>
+</html>

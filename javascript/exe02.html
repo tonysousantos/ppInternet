@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script>
+//            window.innerWidth = 100;
+//            window.innerHeight = 50;
+
+            window.onload = function () {
+                var inst = document.querySelector("#mudandoback");
+                inst.style.minWidth = "100px";
+                inst.style.minHeight = "50px";
+                inst.style.maxWidth = "100px";
+                inst.style.maxHeight = "50px";
+
+
+                inst.style.background = "green";
+                inst.style.display = "block";
+            }
+
+            function alteraCor() {
+                var inst = document.querySelector("#mudandoback");
+                inst.style.background = "blue";
+            }
+
+            function alteraCor2() {
+                var inst = document.querySelector("#mudandoback");
+                inst.style.background = "green";
+            }
+        </script>
+
+    </head>
+    <body>
+        <div id="mudandoback" onmouseover="alteraCor();" onmouseout="alteraCor2();"></div>
+    </body>
+</html>
