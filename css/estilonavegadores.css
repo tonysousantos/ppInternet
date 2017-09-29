@@ -1,0 +1,42 @@
+article{
+    position: absolute;
+    left: 35%;
+    margin: 20px;
+    border: 1px solid gray;
+    width: 400px;
+    height: 500px;
+    background: white;
+
+}
+article section{
+    margin-left:20px;
+}
+
+p{
+    color: blue;
+    font-size: 20px;
+    margin-left:20px;
+    font-size: 12px;
+}
+article h1{
+    text-align: center;
+}
+footer{
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+    color: blue;
+}
+section{
+    margin: 20px;
+    background: #c2f8f9;
+}
+section b{
+    color: #a103c4;
+}
+
+body{
+    width: 800px;
+    height: 800px;
+    background: lightskyblue;
+}
